@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Mensagens Day</title>
 </head>
-<body>
+<body onload="carregar()">
     <header>
-        <h1>Bomm diaa!!</h1>
+        <h1>Mensagens para determinada hora do dia!</h1>
     </header>
     <section>
-        <div>Testando</div>
-        <div></div>
+        <div id="msg"></div>
+        <div id="foto">
+            <img id="imagem" src="fotos/1.png" alt="Foto Manhã">
+        </div>
+        <p id="frase"></p>
     </section>
     <footer>
         <p>&copy;Lala Linda</p>
